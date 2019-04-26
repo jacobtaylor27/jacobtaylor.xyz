@@ -1,0 +1,41 @@
+---
+title: "Gallerie photo et fond d'écrans"
+output: 
+ html_document:
+   theme: united
+   highlight: tango
+   includes:
+      after_body: footer.html
+---
+<a href="https://jacobtaylor.xyz">Accueil</a> - <a href="https://jacobtaylor.xyz/cv">Curriculum Vitae</a> - <a href="https://jacobtaylor.xyz/outils">Outils</a> - <a href="https://jacobtaylor.xyz/social">Social</a> - <a href="https://jacobtaylor.xyz/contact">Me contacter</a>
+
+***
+> Il se peut que certaines images possèdent des ```droits d'auteur```. Si une des images est la votre, s'il-vous-plaît [m'avertir](https://jacobtaylor.xyz/contact) pour que je la retire.
+
+##### Vous pouvez accéder à toutes mes photos sur ma page [GitHub](https://github.com/jacobtaylor27/jacobtaylor.xyz/tree/master/images)
+
+##### Principales sources pour mes images : 
+
+* [Pexels](https://www.pexels.com/)
+* [Backdrop (mobile)](https://www.backdrops.io/)
+* [Wg](http://boards.4chan.org/wg/)
+* [Recherche Google...](https://www.google.ca/)
+
+***
+
+## Mes images préférées
+
+#### **```Swirl```** 
+
+![](images/swirl.jpg)
+[Télécharger ici](https://github.com/jacobtaylor27/jacobtaylor.xyz/raw/master/images/swirl.jpg)
+
+#### **```Mojave Dark```** 
+
+![](images/mojave_d.jpg)
+[Télécharger ici](https://github.com/jacobtaylor27/jacobtaylor.xyz/raw/master/images/mojave_d.jpg)
+
+#### **```Mojave Light```** 
+
+![](images/mojave_l.jpg)
+[Télécharger ici](https://github.com/jacobtaylor27/jacobtaylor.xyz/raw/master/images/mojave_l.jpg)

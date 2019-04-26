@@ -1,0 +1,12 @@
+---
+title: "Me contacter"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    includes:
+      after_body: footer.html
+---
+<a href="https://jacobtaylor.xyz">Accueil</a> - <a href="https://jacobtaylor.xyz/images">Images</a> - <a href="https://jacobtaylor.xyz/cv">Curriculum Vitae</a> - <a href="https://jacobtaylor.xyz/outils">Outils</a> - <a href="https://jacobtaylor.xyz/social">Social</a>
+
+***
