@@ -1,14 +1,12 @@
 ---
 title: "Outils"
-output: 
- html_document:
-   theme: united
-   highlight: tango
-   includes:
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    includes:
       after_body: footer.html
 ---
-<a href="https://jacobtaylor.xyz">Accueil</a> - <a href="https://jacobtaylor.xyz/images">Images</a> - <a href="https://jacobtaylor.xyz/cv">Curriculum Vitae</a> - <a href="https://jacobtaylor.xyz/social">Social</a> - <a href="https://jacobtaylor.xyz/contact">Me contacter</a>
-
 ***
 ### Programmation et Language de balisage
 
@@ -51,3 +49,5 @@ output:
 
 * [VirtualBox](https://www.virtualbox.org/)
 * [Splashtop](https://www.splashtop.com/)
+
+***

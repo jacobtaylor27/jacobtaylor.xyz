@@ -1,21 +1,31 @@
 ---
 title: "Jacob Taylor"
-output: 
- html_document:
+output:
+  html_document:
     theme: united
     highlight: tango
     includes:
       after_body: footer.html
 ---
-<a href="https://jacobtaylor.xyz/images">Images</a> - <a href="https://jacobtaylor.xyz/cv">Curriculum Vitae</a> - <a href="https://jacobtaylor.xyz">Outils</a> -  <a href="https://jacobtaylor.xyz/social">Social</a> - <a href="https://jacobtaylor.xyz/contact">Me contacter</a>
+***
+## Bonjour et bienvenue sur mon site web.
+
+### [Images](https://jacobtaylor.xyz/images)
+On y retrouve mes ```images``` favorites ainsi que mes ```fonds d'écran``` actuels.
+
+### [Curriculum Vitae](https://jacobtaylor.xyz/cv)
+Mon ```résumé```.
+
+### [Outils](https://jacobtaylor.xyz/outils)
+Les ```programmes``` qui me sont le plus utile sont catégorisés dans cette section.
+
+### [Réseaux Sociaux](https://jacobtaylor.xyz/social)
+Ici, vous pouvez trouver mon activité la plus récente sur les ```réseaux sociaux```.
+
+### [Media](https://jacobtaylor.xyz/media)
+Regroupement de mes ```chansons```, ```artistes```, ```albums```, ```films``` et ```série TV``` préférés.
+
+### [Me contacter](https://jacobtaylor.xyz/contact)
+Les ```liens pour me joindre``` facilement sont dans cet onglet.
 
 ***
-Bonjour et bienvenue sur mon site web.
-Sur celui-ci, vous allez retrouvez un peu de tout.
-On y retrouve mes ```images``` favorites, mes ```fond d'écrans```, mes ```programmes/outils```
-les plus utilisés. Il est également possible d'accéder à mon ```curriculum vitae```.
-
-Une section avec des liens vers mes ```réseaux sociaux``` est également incluse.
-Dans cette section vous allez retrouver mon activité la plus récente sur le web.
-
-![Guillaume Dumas-Houle, Jacob Taylor, Andrew Laflamme, Olivier Bigras, Gabriel Galli, William Dupuis](images/ball.jpg)
