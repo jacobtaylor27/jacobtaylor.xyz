@@ -1,0 +1,53 @@
+---
+title: "Outils"
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    includes:
+      after_body: footer.html
+---
+***
+### Programmation et Language de balisage
+
+* [Vim](https://www.vim.org/)
+* [Rstudio](https://www.rstudio.com/)
+* [Notepad++](https://notepad-plus-plus.org/)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
+* [Pandoc](https://pandoc.org/)
+* [Android Studio](https://developer.android.com/studio)
+* [LaTex](https://www.latex-project.org/)
+* [Groff](https://www.gnu.org/software/groff/)
+* [Eclipse](https://www.eclipse.org/)
+
+### Collection de media
+
+* [Plex Media Server](https://www.plex.tv/)
+* [Plex Media Player](https://www.plex.tv/apps-devices/#modal-devices-plex-media-player)
+* [FileBot](https://www.filebot.net/)
+* [MegaSync](https://mega.nz/sync)
+* [Transmission](https://transmissionbt.com/)
+* [JDownloader2](http://jdownloader.org/jdownloader2)
+* [Kodi](https://kodi.tv/)
+* [Spotify](https://www.spotify.com)
+* [Deezloader](https://gist.github.com/duttaditya18/f366c7694fe50d7c69f8654579112da5)
+* [Google Play Music](https://play.google.com)
+
+### Éducation
+
+* [Antidote](https://antidote.info/fr)
+* Microsoft office 2019
+  + [Word](https://products.office.com/word)
+  + [Publisher](https://products.office.com/publisher)
+  + [PowerPoint](https://products.office.com/powerpoint)
+  + [Excel](https://products.office.com/excel)
+  + [Access](https://products.office.com/access)
+* [Google Drive](https://www.google.com/drive/)
+* [Maple 18](https://www.maplesoft.com/support/help/maple/view.aspx?path=updates%2Fv18)
+
+### Connection à distance et virtualization
+
+* [VirtualBox](https://www.virtualbox.org/)
+* [Splashtop](https://www.splashtop.com/)
+
+***
