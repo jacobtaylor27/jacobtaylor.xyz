@@ -12,7 +12,7 @@ output:
 
 ##### Vous pouvez accéder à toutes mes photos sur ma page [GitHub](https://github.com/jacobtaylor27/jacobtaylor.xyz/tree/master/images)
 
-##### Principales sources pour mes images : 
+##### Principales sources pour mes images :
 
 * [Pexels](https://www.pexels.com/)
 * [Backdrop (mobile)](https://www.backdrops.io/)
@@ -23,19 +23,19 @@ output:
 
 ## Mes fonds d'écrans actuels
 
-#### **```Swirl```** 
+#### **```Swirl```**
 
 ![](images/swirl.jpg)
-[Télécharger ici](https://github.com/jacobtaylor27/jacobtaylor.xyz/raw/master/images/swirl.jpg)
+[Télécharger ici](images/swirl.jpg)
 
-#### **```Mojave Dark```** 
+#### **```Mojave Dark```**
 
 ![](images/mojave_d.jpg)
-[Télécharger ici](https://github.com/jacobtaylor27/jacobtaylor.xyz/raw/master/images/mojave_d.jpg)
+[Télécharger ici](images/mojave_d.jpg)
 
-#### **```Mojave Light```** 
+#### **```Mojave Light```**
 
 ![](images/mojave_l.jpg)
-[Télécharger ici](https://github.com/jacobtaylor27/jacobtaylor.xyz/raw/master/images/mojave_l.jpg)
+[Télécharger ici](images/mojave_l.jpg)
 
 ***
