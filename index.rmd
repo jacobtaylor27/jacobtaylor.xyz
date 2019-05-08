@@ -10,22 +10,22 @@ output:
 ***
 ## Bonjour et bienvenue sur mon site web.
 
-### [Images](https://jacobtaylor.xyz/images)
+### [Images](images.html)
 On y retrouve mes ```images``` favorites ainsi que mes ```fonds d'écran``` actuels.
 
-### [Curriculum Vitae](https://jacobtaylor.xyz/cv)
+### [Curriculum Vitae](cv.html)
 Mon ```résumé```.
 
-### [Outils](https://jacobtaylor.xyz/outils)
+### [Outils](outils.html)
 Les ```programmes``` qui me sont le plus utile sont catégorisés dans cette section.
 
-### [Réseaux Sociaux](https://jacobtaylor.xyz/social)
+### [Réseaux Sociaux](social.html)
 Ici, vous pouvez trouver mon activité la plus récente sur les ```réseaux sociaux```.
 
-### [Media](https://jacobtaylor.xyz/media)
+### [Media](media.html)
 Regroupement de mes ```chansons```, ```artistes```, ```albums```, ```films``` et ```série TV``` préférés.
 
-### [Me contacter](https://jacobtaylor.xyz/contact)
+### [Me contacter](contact2.html)
 Les ```liens pour me joindre``` facilement sont dans cet onglet.
 
 ***

@@ -8,13 +8,13 @@ output:
       after_body: footer.html
 ---
 ***
-### [Films](https://jacobtaylor.xyz/films)
+### [Films](films.html)
 Cette section contient une liste des films à regarder
 
-### [Séries TV](https://jacobtaylor.xyz/tv)
+### [Séries TV](tv.html)
 Classement de mes séries préférées de tout les temps
 
-### [Musique](https://jacobtaylor.xyz/musique)
+### [Musique](musique.html)
 Un regroupement des mes albums et aristes favorits
 
 ***

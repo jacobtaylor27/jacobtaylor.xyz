@@ -8,7 +8,7 @@ output:
       after_body: footer.html
 ---
 ***
-> Il se peut que certaines images possèdent des ```droits d'auteur```. Si une des images est la votre, s'il-vous-plaît [m'avertir](https://jacobtaylor.xyz/contact) pour que je la retire.
+> Il se peut que certaines images possèdent des ```droits d'auteur```. Si une des images est la votre, s'il-vous-plaît [m'avertir](contact2.html) pour que je la retire.
 
 ##### Vous pouvez accéder à toutes mes photos sur ma page [GitHub](https://github.com/jacobtaylor27/jacobtaylor.xyz/tree/master/images)
 

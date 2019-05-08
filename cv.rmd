@@ -14,7 +14,7 @@ output:
 
 + Téléphone: 514.952.0327
 + Email: [jacob.taylor.01@gmail.com](mailto:jacob.taylor.01@gmail.com)
-+ Website: [https://jacobtaylor.xyz](https://jacobtaylor.xyz)
++ Site Web: [https://jacobtaylor.xyz](https://jacobtaylor.xyz)
 
 #### Institutions
 
@@ -24,7 +24,7 @@ output:
 
 ### Languages
 
-#### Humain
+#### Humaines
 
 Anglais et espagnol (débutant).
 
