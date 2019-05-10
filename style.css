@@ -2,5 +2,19 @@ body {
 	text-align: justify
 }
 
+h1, h2 {
+	text-align: center
+}
+table {
+  border-collapse: collapse;	
+}
 
-    
+th, td {
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+h3, h4 {
+	text-align: left
+} 

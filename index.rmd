@@ -2,30 +2,31 @@
 title: "Jacob Taylor"
 output:
   html_document:
-    theme: united
+    theme: lumen
     highlight: tango
+    css: style.css
     includes:
       after_body: footer.html
 ---
 ***
-## Bonjour et bienvenue sur mon site web.
+### Bonjour et bienvenue sur mon site web.
 
-### [Images](images.html)
+#### [Images](images.html)
 On y retrouve mes ```images``` favorites ainsi que mes ```fonds d'écran``` actuels.
 
-### [Curriculum Vitae](cv.html)
+#### [Curriculum Vitae](cv.html)
 Mon ```résumé```.
 
-### [Outils](outils.html)
+#### [Outils](outils.html)
 Les ```programmes``` qui me sont le plus utile sont catégorisés dans cette section.
 
-### [Réseaux Sociaux](social.html)
+#### [Réseaux Sociaux](social.html)
 Ici, vous pouvez trouver mon activité la plus récente sur les ```réseaux sociaux```.
 
-### [Media](media.html)
+#### [Media](media.html)
 Regroupement de mes ```chansons```, ```artistes```, ```albums```, ```films``` et ```série TV``` préférés.
 
-### [Me contacter](contact2.html)
+#### [Me contacter](contact2.html)
 Les ```liens pour me joindre``` facilement sont dans cet onglet.
 
 ***

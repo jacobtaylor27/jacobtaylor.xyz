@@ -1,18 +1,20 @@
 ---
-title: "Photos"
+title: "Images et fonds d'écran"
 output:
   html_document:
-    theme: united
+    theme: lumen
     highlight: tango
+    css: style.css
     includes:
       after_body: footer.html
 ---
 ***
+
 > Il se peut que certaines images possèdent des ```droits d'auteur```. Si une des images est la votre, s'il-vous-plaît [m'avertir](contact2.html) pour que je la retire.
 
-##### Vous pouvez accéder à toutes mes photos sur ma page [GitHub](https://github.com/jacobtaylor27/jacobtaylor.xyz/tree/master/images)
+Vous pouvez accéder à toutes mes photos sur ma page [GitHub](https://github.com/jacobtaylor27/jacobtaylor.xyz/tree/master/images)
 
-##### Principales sources pour mes images :
+Principales sources pour mes images :
 
 * [Pexels](https://www.pexels.com/)
 * [Backdrop (mobile)](https://www.backdrops.io/)
@@ -21,19 +23,19 @@ output:
 
 ***
 
-## Mes fonds d'écrans actuels
+#### Mes fonds d'écrans actuels
 
-#### **```Swirl```**
+##### **```Swirl```**
 
 ![](images/swirl.jpg)
 [Télécharger ici](images/swirl.jpg)
 
-#### **```Mojave Dark```**
+##### **```Mojave Dark```**
 
 ![](images/mojave_d.jpg)
 [Télécharger ici](images/mojave_d.jpg)
 
-#### **```Mojave Light```**
+##### **```Mojave Light```**
 
 ![](images/mojave_l.jpg)
 [Télécharger ici](images/mojave_l.jpg)

@@ -2,8 +2,9 @@
 title: "Films"
 output:
   html_document:
-    theme: united
+    theme: lumen
     highlight: tango
+    css: style.css
     includes:
       after_body: footer.html
 ---

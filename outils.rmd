@@ -2,12 +2,14 @@
 title: "Outils"
 output:
   html_document:
-    theme: united
+    theme: lumen
     highlight: tango
+    css: style.css
     includes:
       after_body: footer.html
 ---
 ***
+
 ### Programmation et Language de balisage
 
 * [Vim](https://www.vim.org/)

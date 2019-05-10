@@ -2,12 +2,14 @@
 title: "Media"
 output:
   html_document:
-    theme: united
+    theme: lumen
     highlight: tango
+    css: style.css
     includes:
       after_body: footer.html
 ---
 ***
+
 ### [Films](films.html)
 Cette section contient une liste des films à regarder
 
