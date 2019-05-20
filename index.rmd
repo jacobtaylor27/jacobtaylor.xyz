@@ -7,6 +7,7 @@ output:
     css: style.css
     includes:
       after_body: footer.html
+      after_header: favicon.html
 ---
 ***
 ### Bonjour et bienvenue sur mon site web.
