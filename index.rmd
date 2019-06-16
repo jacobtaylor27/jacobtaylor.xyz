@@ -12,22 +12,9 @@ output:
 ***
 ### Bonjour et bienvenue sur mon site web.
 
-#### [Images](images.html)
-On y retrouve mes ```images``` favorites ainsi que mes ```fonds d'écran``` actuels.
 
-#### [Curriculum Vitae](cv.html)
-Mon ```résumé```.
-
-#### [Outils](outils.html)
-Les ```programmes``` qui me sont le plus utile sont catégorisés dans cette section.
-
-#### [Réseaux Sociaux](social.html)
-Ici, vous pouvez trouver mon activité la plus récente sur les ```réseaux sociaux```.
-
-#### [Media](media.html)
-Regroupement de mes ```chansons```, ```artistes```, ```albums```, ```films``` et ```série TV``` préférés.
-
-#### [Me contacter](contact2.html)
-Les ```liens pour me joindre``` facilement sont dans cet onglet.
-
+```
+Voici ma plus récente photo publié sur instagram
+```
+![](images/moi_offwhite.png)
 ***
