@@ -16,5 +16,5 @@ output:
 ```
 Voici ma plus récente photo publié sur instagram
 ```
-![](images/moi_offwhite.png)
+![](images/moi_offwhite_web.jpg)
 ***
