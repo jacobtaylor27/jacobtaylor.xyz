@@ -10,12 +10,14 @@ output:
       after_header: favicon.html
 ---
 ***
-### Bonjour et bienvenue sur mon site web.
+### Bonjour et bienvenue sur mon site web voici mon activité récente sur instagram.
 
+**@ City Styles**
 
-```
-Voici ma plus récente photo publié sur instagram
-```
 ![](images/moi_offwhite_web.jpg)
+
+**Man on the Moon III**
+
+![](images/pc_2018_web.jpg)
 
 ***
