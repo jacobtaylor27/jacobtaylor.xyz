@@ -1,0 +1,65 @@
+---
+title: "Séries TV"
+output:
+  html_document:
+    theme: lumen
+    highlight: tango
+    css: style.css
+    includes:
+      after_body: footer.html
+---
+***
+
+### Top 10 des meilleurs séries TV
+
+### 1. [Sherlock (2010 -- )](https://www.imdb.com/title/tt1475582/)
+> In this contemporary version of Sir Arthur Conan Doyle's detective stories, Dr. John Watson is a war vet just home from Afghanistan. He meets the brilliant but eccentric Holmes when the latter, who serves as a consultant to Scotland Yard, advertises for a flatmate. Almost as soon as Watson moves into the Baker Street flat, they are embroiled in mysteries, and Sherlock's nemesis, Moriarty, appears to have a hand in the crimes.
+
+![](images/sherlock.jpg)
+
+### 2. [Prison Break (2005 -- 2017)](https://www.imdb.com/title/tt0455275/)
+> Michael Scofield is a desperate man in a desperate situation. His brother, Lincoln Burrows, was convicted of a crime he didn't commit and put on Death Row. Michael holds up a bank to get himself incarcerated alongside his brother in Fox River State Penitentiary, then sets in motion a series of elaborate plans to break Lincoln out and prove his innocence. Once out of jail, their perils aren't over -- the brothers must flee to escape recapture and battle an intricate political conspiracy that puts everyone's life at risk.
+
+![](images/prisonbreak.jpg)
+
+### 3. [Broadchurch (2013 -- 2017)](https://www.imdb.com/title/tt2249364/)
+> The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.
+
+![](images/broadchurch.jpg)
+
+### 4. [The Walking Dead (2010 -- )](https://www.imdb.com/title/tt1520211/)
+> Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.
+
+![](images/twd.jpg)
+
+### 5. [Breaking Bad (2008 -- 2013)](https://www.imdb.com/title/tt0903747/)
+> When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.
+
+![](images/breakingbad.jpg)
+
+### 6. [Mr. Robot (2015 -- )](https://www.imdb.com/title/tt4158110/)
+> A contemporary and culturally resonant drama about a young programmer, Elliot, who suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot will find himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.
+
+![](images/robot.jpg)
+
+### 7. [Ozark (2017 -- )](https://www.imdb.com/title/tt5071412/)
+> A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.
+
+![](images/ozark.jpg)
+
+### 8. [Marvel's the Punisher (2017 -- )](https://www.imdb.com/title/tt5675620/)
+> A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy.
+
+![](images/punisher.jpg)
+
+### 9. [American Gods (2017 -- )](https://www.imdb.com/title/tt1898069/)
+> An ex-con becomes the traveling partner of a conman who turns out to be one of the older gods trying to recruit troops to battle the upstart deities. Based on Neil Gaiman's fantasy novel.
+
+![](images/americangods.jpg)
+
+### 10. [The Flash (2014 -- )](https://www.imdb.com/title/tt3107288/)
+> After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only "meta-human" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.
+
+![](images/flash.jpg)
+
+***

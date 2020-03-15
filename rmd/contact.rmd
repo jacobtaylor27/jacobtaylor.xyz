@@ -1,0 +1,22 @@
+---
+title: "Me contacter"
+output:
+  html_document:
+    theme: lumen
+    highlight: tango
+    css: style.css
+    includes:
+      after_body: footer.html
+---
+***
+
+### Par courriel 
+jacob.taylor.01@gmail.com
+
+### Par Téléphone 
+514.952.0327
+
+### Sur les réseaux sociaux
+Mes coordonnées sont disponibles [ici](https://jacobtaylor.xyz/social).
+
+***

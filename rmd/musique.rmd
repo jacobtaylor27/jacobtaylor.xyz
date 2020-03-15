@@ -1,0 +1,11 @@
+---
+title: "Musique"
+output:
+  html_document:
+    theme: lumen
+    highlight: tango
+    css: style.css
+    includes:
+      after_body: footer.html
+---
+***
