@@ -1,0 +1,164 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /*background-image: linear-gradient(#c94b4b, #4b134f);*/
+  background-image: linear-gradient(#40e0d0, #ff8c00, #ff0080);
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  border-radius: 25px 25px 0px 0px;
+  display: flex;
+  height: 10vh;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  width: 70%;
+  border-color: #ebdbb2;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+  background-image: linear-gradient(to bottom right, #1a1a1d, #1a1a1d);
+}
+
+.logo-container,
+.nav-links {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 4%;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  list-style: none;
+  color: #c3073f;
+  text-decoration: none;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-link {
+  color: #83a598;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: #83a598;
+}
+
+.footer-link {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.presentation {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  background-image: linear-gradient(to bottom right, #1a1a1d, #1a1a1d);
+  min-height: 120vh;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: #ebdbb2;
+}
+
+.intro {
+  flex: 1;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 4%;
+  margin-right: 4%;
+  color: #ebdbb2;
+}
+
+.intro-text p {
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 22px;
+  color: #ebdbb2;
+}
+
+.slideshow {
+  height: 60vh;
+  display: none;
+}
+
+hr {
+  height: 1px;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #515151;
+}
+
+footer {
+  background-image: linear-gradient(to bottom right, #1a1a1d, #1a1a1d);
+  height: 20vh;
+  border-radius: 0px 0px 25px 25px;
+  margin: auto;
+  width: 70%;
+  color: #ebdbb2;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: #ebdbb2;
+  border-width: 1px;
+  margin-bottom: 110px;
+}
+
+.footer-link {
+  text-decoration: none;
+  list-style: none;
+  color: #c3073f;
+}
+
+.project-links {
+  display: list-item;
+  list-style: none;
+}
+
+.project-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.courriel {
+  text-decoration: none;
+  list-style: none;
+}
