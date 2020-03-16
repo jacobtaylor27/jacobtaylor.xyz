@@ -21,7 +21,7 @@ header {
   margin: auto;
   margin-top: 40px;
   align-items: center;
-  width: 70%;
+  width: 80%;
   border-color: #ebdbb2;
   border-right-style: solid;
   border-left-style: solid;
@@ -80,7 +80,7 @@ nav {
 
 .presentation {
   display: flex;
-  width: 70%;
+  width: 80%;
   margin: auto;
   background-image: linear-gradient(to bottom right, #1a1a1d, #1a1a1d);
   min-height: 120vh;
@@ -131,7 +131,7 @@ footer {
   height: 20vh;
   border-radius: 0px 0px 25px 25px;
   margin: auto;
-  width: 70%;
+  width: 80%;
   color: #ebdbb2;
   border-right-style: solid;
   border-left-style: solid;
