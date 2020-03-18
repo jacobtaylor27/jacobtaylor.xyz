@@ -32,6 +32,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(var(--color16),var(--color17),var(--color18));
 }
 
@@ -45,7 +48,6 @@ header {
   margin: auto;
   margin-top: 40px;
   align-items: center;
-  width: 65%;
   border-color: #ebdbb2;
   border-right-style: solid;
   border-left-style: solid;
@@ -60,12 +62,9 @@ header {
   font-size: 54px;
   font-weight: 600;
   text-align: center;
+  list-style: none;
 }
 
-li {
-  list-style: none;
-  text-decoration: var(--color6);
-}
 
 .logo {
   list-style: none;
@@ -95,7 +94,6 @@ li {
 
 .presentation {
   display: flex;
-  width: 65%;
   margin: auto;
   background-image: linear-gradient(to bottom right, #1a1a1d, #1a1a1d);
   min-height: 120vh;
@@ -113,20 +111,63 @@ li {
   flex: 1;
 }
 
-.intro-text h1 {
+.intro-text p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #ebdbb2;
+}
+
+.presentation .bienvenue{
   font-size: 26px;
   font-weight: 500;
-  margin-top: 4%;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: var(--color3);
 }
 
-.intro-text p {
-  margin-left: 4%;
-  margin-right: 4%;
-  font-size: 22px;
-  color: #ebdbb2;
+.presentation .rejoindre{
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: var(--color3);
+}
+
+.presentation .projets{
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: var(--color3);
+}
+
+
+.social{
+  text-decoration: none;
+  color: #83a598;
+}
+
+ul {
+  list-style: none; 
+}
+
+.social-links li::before {
+  content: "\2022";  
+  color: #c3073f;
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+.social-links{
+  margin-top: 10px;
+
+  margin-left: 8%;
 }
 
 hr {
@@ -142,7 +183,6 @@ footer {
   height: 20vh;
   border-radius: 0px 0px 25px 25px;
   margin: auto;
-  width: 65%;
   color: #ebdbb2;
   border-right-style: solid;
   border-left-style: solid;
