@@ -77,19 +77,12 @@ header {
   color: #83a598;
   font-size: 20px;
   font-weight: 500;
-  text-decoration: none;
-}
-.nav-links {
-  justify-content: center;
-  list-style: none;
-  display: flex;
-  margin-top: 1%;
-  justify-content: space-around;
-  align-items: center;
 }
 
-.nav-link:hover {
-  color: var(--logocolor);
+.nav-links {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
 }
 
 .presentation {
@@ -145,23 +138,19 @@ header {
   color: var(--color3);
 }
 
+.presentation .social{
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: var(--color3);
+}
 
-.social{
+
+.social-link{
   text-decoration: none;
   color: #83a598;
-}
-
-ul {
-  list-style: none; 
-}
-
-.social-links li::before {
-  content: "\2022";  
-  color: #c3073f;
-  font-weight: bold; 
-  display: inline-block; 
-  width: 1em; 
-  margin-left: -1em; 
 }
 
 .social-links{
@@ -170,13 +159,6 @@ ul {
   margin-left: 8%;
 }
 
-hr {
-  height: 1px;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
-  color: #515151;
-}
 
 footer {
   background-image: linear-gradient(to bottom right, #1a1a1d, #1a1a1d);
