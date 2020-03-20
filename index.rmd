@@ -1,5 +1,5 @@
 ---
-title: "jacobtaylor.xyz"
+title: "Jacob Taylor"
 output:
   prettydoc::html_pretty:
     css: style.css
@@ -7,15 +7,30 @@ output:
     highlight: github
     math: katex
 ---
+<style>
+body {
+text-align: justify}
+</style>
+
+<link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
+
+<title>Accueil de Jacob Taylor</title>
+
 # Bienvenue!
 
 Mon nom est Jacob Taylor et voici mon site personnel. Sur celui-ci, on y retrouve mes projets, différents articles et d'autre choses dans mon champ d'intérêt.
 
 # Social
 
+Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit.
+
 # Projets
+
+Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit.
 
 # Me rejoindre
 
-Pour me rejoindre, il est possible de me contacter sur n'importe quel des réseaux sociaux suivants :
+Pour me rejoindre, il est possible de m'écrire par courriel : jacob@jacobtaylor.xyz
+
+***
 
