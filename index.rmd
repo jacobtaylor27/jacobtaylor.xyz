@@ -2,21 +2,14 @@
 title: "Jacob Taylor"
 output:
   prettydoc::html_pretty:
-    css: style.css
     theme: caymen
+    css: style.css
     highlight: github
     math: katex
 ---
-<style>
-body {
-text-align: justify}
-</style>
-
 <link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
 
-<title>Accueil de Jacob Taylor</title>
-
-# Bienvenue!
+#  Bienvenue!
 
 ***
 

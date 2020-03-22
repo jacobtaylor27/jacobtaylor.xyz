@@ -11,7 +11,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="author" content="Jacob Taylor" />
+<meta name="author" content="par Jacob Taylor" />
 
 
 <title>Installation de Arch Linux</title>
@@ -63,7 +63,7 @@ code span.ot { color: #007020; }
 <section class="page-header">
 <h1 class="title toc-ignore project-name">Installation de Arch Linux</h1>
 <h3 class="subtitle project-tagline">Installation Standard</h3>
-<h4 class="author project-author">Jacob Taylor</h4>
+<h4 class="author project-author">par Jacob Taylor</h4>
 <h4 class="date project-date">21-03-2020</h4>
 </section>
 
@@ -72,7 +72,7 @@ code span.ot { color: #007020; }
 <ul>
 <li><a href="#étapes-dinstallation">Étapes d’installation</a><ul>
 <li><a href="#téléchargement-de-liso">Téléchargement de l’ISO</a></li>
-<li><a href="#connection-internet">Connection internet</a></li>
+<li><a href="#vérifier-la-connection-internet">Vérifier la connection internet</a></li>
 <li><a href="#directive-pour-le-wifi">Directive pour le WiFi</a></li>
 <li><a href="#sil-y-a-une-connection-internet-mais-pas-dip">S’il y a une connection internet, mais pas d’IP</a></li>
 <li><a href="#ajuster-la-liste-des-mirroirs">Ajuster la liste des mirroirs</a></li>
@@ -82,49 +82,49 @@ code span.ot { color: #007020; }
 <li><a href="#montrer-les-partitions-actuelles">Montrer les partitions actuelles</a></li>
 <li><a href="#créer-une-partition-efi">Créer une partition EFI</a></li>
 <li><a href="#créer-une-partition-rootfs">Créer une partition rootfs</a></li>
-<li><a href="#créer-une-partition-home">Créer une partition <code>home</code></a></li>
+<li><a href="#créer-une-partition-home">Créer une partition home</a></li>
 <li><a href="#remontrer-les-partitions-actuelles">Remontrer les partitions actuelles</a></li>
 <li><a href="#finaliser-les-changements-de-partitions">Finaliser les changements de partitions</a></li>
 <li><a href="#formatter-la-partition-efi">Formatter la partition EFI</a></li>
 <li><a href="#formatter-la-partition-rootfs">Formatter la partition rootfs</a></li>
 <li><a href="#formatter-la-partition-home">Formatter la partition home</a></li>
 <li><a href="#monter-la-partition-root">Monter la partition root</a></li>
-<li><a href="#créer-lendroit-pour-monter-la-partition-home">Créer l’endroit pour monter la partition home</a></li>
+<li><a href="#créer-lemplacement-pour-monter-la-partition-home">Créer l’emplacement pour monter la partition home</a></li>
 <li><a href="#monter-le-volume-home">Monter le volume home</a></li>
 <li><a href="#créer-le-chemin-etc">Créer le chemin /etc</a></li>
 <li><a href="#créer-le-fichier-etcfstab">Créer le fichier /etc/fstab</a></li>
 <li><a href="#vérifier-le-fichier-etcfstab">Vérifier le fichier /etc/fstab</a></li>
 <li><a href="#installer-les-progiciels-de-base">Installer les progiciels de base</a></li>
-<li><a href="#changer-de-root">Changer de <code>root</code></a></li>
-<li><a href="#installer-un-kernel-et-header">Installer un <code>kernel et header</code></a></li>
+<li><a href="#changer-de-root">Changer de root</a></li>
+<li><a href="#installer-un-kernel-et-header">Installer un kernel et header</a></li>
 <li><a href="#installation-dapplications-de-bases">Installation d’applications de bases</a></li>
 <li><a href="#activer-openssh-sil-est-installé">Activer OpenSSH s’il est installé</a></li>
 <li><a href="#installation-de-progiciels-de-réseautique">Installation de progiciels de réseautique</a></li>
-<li><a href="#installation-de-dialog">Installation de <code>dialog</code></a></li>
-<li><a href="#activer-networkmanager">Activer <code>networkmanager</code></a></li>
+<li><a href="#installation-de-dialog">Installation de dialog</a></li>
+<li><a href="#activer-networkmanager">Activer networkmanager</a></li>
 <li><a href="#créer-le-ramdisk-initial-pour-le-kernel-principal">Créer le ramdisk initial pour le kernel principal</a></li>
 <li><a href="#créer-le-ramdisk-initial-pour-le-kernel-lts-sil-est-installé">Créer le ramdisk initial pour le kernel LTS (s’il est installé)</a></li>
-<li><a href="#retirer-le-commentaire-de-la-ligne-qui-correspond-à-votre-locale-du-fichier-etclocale.gen">Retirer le commentaire de la ligne qui correspond à votre locale du fichier /etc/locale.gen</a></li>
+<li><a href="#retirer-le-commentaire-de-la-ligne-qui-correspond-au-locale-de-choix-du-fichier-etclocale.gen">Retirer le commentaire de la ligne qui correspond au locale de choix du fichier /etc/locale.gen</a></li>
 <li><a href="#générer-les-locales">Générer les locales</a></li>
-<li><a href="#définir-le-mot-de-passe-root">Définir le mot de passe <code>root</code></a></li>
+<li><a href="#définir-le-mot-de-passe-root">Définir le mot de passe root</a></li>
 <li><a href="#créer-un-utilisateur-personnel">Créer un utilisateur personnel</a></li>
 <li><a href="#définir-un-mot-de-passe-pour-lutilisateur">Définir un mot de passe pour l’utilisateur</a></li>
-<li><a href="#installer-sudo-peut-être-déjà-installé">Installer <code>sudo</code> (peut être déjà installé)</a></li>
-<li><a href="#ajouter-lutilisateur-au-groupe-wheel">Ajouter l’utilisateur au groupe <code>wheel</code></a></li>
+<li><a href="#installer-sudo-peut-être-déjà-installé">Installer sudo (peut être déjà installé)</a></li>
+<li><a href="#ajouter-lutilisateur-au-groupe-wheel">Ajouter l’utilisateur au groupe wheel</a></li>
 <li><a href="#installer-des-progiciels-pour-grub">Installer des progiciels pour GRUB</a></li>
 <li><a href="#créer-le-chemin-pour-le-démarrage-efi">Créer le chemin pour le démarrage EFI</a></li>
 <li><a href="#monter-la-partition-efi">Monter la partition EFI</a></li>
-<li><a href="#installer-grub">Installer <code>GRUB</code></a></li>
+<li><a href="#installer-grub">Installer GRUB</a></li>
 <li><a href="#créer-le-chemin-locale-pour-grub">Créer le chemin locale pour GRUB</a></li>
 <li><a href="#copier-le-fichier-locale-vers-le-chemin-locale">Copier le fichier locale vers le chemin locale</a></li>
 <li><a href="#générer-le-fichier-de-configuration-de-grub">Générer le fichier de configuration de GRUB</a></li>
 <li><a href="#créer-un-fichier-swap">Créer un fichier swap</a></li>
-<li><a href="#sauvegarder-le-fichier-etcfstab">Sauvegarder le fichier /etc/fstab</a></li>
+<li><a href="#faire-une-copie-de-sauvegarde-du-fichier-etcfstab">Faire une copie de sauvegarde du fichier /etc/fstab</a></li>
 <li><a href="#ajouter-le-fichier-swap-au-fichier-etcfstab">Ajouter le fichier swap au fichier /etc/fstab</a></li>
 <li><a href="#vérifier-si-toutes-les-bonnes-partitions-sont-présentes-dans-le-fichier-etcfstab">Vérifier si toutes les bonnes partitions sont présentes dans le fichier /etc/fstab</a></li>
 <li><a href="#installer-les-fichier-de-microdes-intel">Installer les fichier de microdes (Intel)</a></li>
 <li><a href="#installer-les-fichier-de-microdes-amd">Installer les fichier de microdes (AMD)</a></li>
-<li><a href="#installer-xorg">Installer <code>Xorg</code></a></li>
+<li><a href="#installer-xorg">Installer Xorg</a></li>
 <li><a href="#installer-le-support-3d-pour-intel-our-les-graphiques-amd">Installer le support 3D pour intel our les graphiques AMD</a></li>
 <li><a href="#installer-les-progiciels-dinvités-de-virtualbox">Installer les progiciels d’invités de VirtualBox</a></li>
 <li><a href="#sortir-de-lenvironement-chroot">Sortir de l’environement chroot</a></li>
@@ -147,8 +147,8 @@ text-align: justify}
 <h3>Téléchargement de l’ISO</h3>
 <p><a href="https://www.archlinux.org/download/">Cliquer ici</a> pour télécharger la dernière version</p>
 </div>
-<div id="connection-internet" class="section level3">
-<h3>Connection internet</h3>
+<div id="vérifier-la-connection-internet" class="section level3">
+<h3>Vérifier la connection internet</h3>
 <pre><code>ip addr show</code></pre>
 </div>
 <div id="directive-pour-le-wifi" class="section level3">
@@ -199,7 +199,7 @@ enter
 +30G</code></pre>
 </div>
 <div id="créer-une-partition-home" class="section level3">
-<h3>Créer une partition <code>home</code></h3>
+<h3>Créer une partition home</h3>
 <pre><code>n
 enter
 enter
@@ -229,8 +229,8 @@ enter</code></pre>
 <h3>Monter la partition root</h3>
 <pre><code>mount /dev/&lt;disque partition 2&gt; /mnt</code></pre>
 </div>
-<div id="créer-lendroit-pour-monter-la-partition-home" class="section level3">
-<h3>Créer l’endroit pour monter la partition home</h3>
+<div id="créer-lemplacement-pour-monter-la-partition-home" class="section level3">
+<h3>Créer l’emplacement pour monter la partition home</h3>
 <pre><code>mkdir /mnt/home</code></pre>
 </div>
 <div id="monter-le-volume-home" class="section level3">
@@ -254,11 +254,11 @@ enter</code></pre>
 <pre><code>pacstrap -i /mnt base</code></pre>
 </div>
 <div id="changer-de-root" class="section level3">
-<h3>Changer de <code>root</code></h3>
+<h3>Changer de root</h3>
 <pre><code>arch-chroot /mnt</code></pre>
 </div>
 <div id="installer-un-kernel-et-header" class="section level3">
-<h3>Installer un <code>kernel et header</code></h3>
+<h3>Installer un kernel et header</h3>
 <pre><code>pacman -S linux linux-headers</code></pre>
 <p>Pour LTS :</p>
 <pre><code>pacman -S linux-lts linux-lts-headers</code></pre>
@@ -278,11 +278,11 @@ enter</code></pre>
 <pre><code>pacman -S networkmanager wpa_supplicant wireless_tools netctl</code></pre>
 </div>
 <div id="installation-de-dialog" class="section level3">
-<h3>Installation de <code>dialog</code></h3>
+<h3>Installation de dialog</h3>
 <pre><code>pacman -S dialog</code></pre>
 </div>
 <div id="activer-networkmanager" class="section level3">
-<h3>Activer <code>networkmanager</code></h3>
+<h3>Activer networkmanager</h3>
 <pre><code>systemctl enable NetworkManager</code></pre>
 </div>
 <div id="créer-le-ramdisk-initial-pour-le-kernel-principal" class="section level3">
@@ -293,8 +293,8 @@ enter</code></pre>
 <h3>Créer le ramdisk initial pour le kernel LTS (s’il est installé)</h3>
 <pre><code>mkinitcpio -p linux-lts</code></pre>
 </div>
-<div id="retirer-le-commentaire-de-la-ligne-qui-correspond-à-votre-locale-du-fichier-etclocale.gen" class="section level3">
-<h3>Retirer le commentaire de la ligne qui correspond à votre locale du fichier /etc/locale.gen</h3>
+<div id="retirer-le-commentaire-de-la-ligne-qui-correspond-au-locale-de-choix-du-fichier-etclocale.gen" class="section level3">
+<h3>Retirer le commentaire de la ligne qui correspond au locale de choix du fichier /etc/locale.gen</h3>
 <pre><code>nano /etc/locale.gen (décommenter le locale voulu)</code></pre>
 </div>
 <div id="générer-les-locales" class="section level3">
@@ -302,7 +302,7 @@ enter</code></pre>
 <pre><code>locale-gen</code></pre>
 </div>
 <div id="définir-le-mot-de-passe-root" class="section level3">
-<h3>Définir le mot de passe <code>root</code></h3>
+<h3>Définir le mot de passe root</h3>
 <pre><code>passwd</code></pre>
 </div>
 <div id="créer-un-utilisateur-personnel" class="section level3">
@@ -314,13 +314,15 @@ enter</code></pre>
 <pre><code>passwd &lt;nom d&#39;utilisateur&gt;</code></pre>
 </div>
 <div id="installer-sudo-peut-être-déjà-installé" class="section level3">
-<h3>Installer <code>sudo</code> (peut être déjà installé)</h3>
+<h3>Installer sudo (peut être déjà installé)</h3>
+<pre><code>which sudo</code></pre>
+<p>S’il n’est pas installé :</p>
 <pre><code>pacman -S sudo</code></pre>
 </div>
 <div id="ajouter-lutilisateur-au-groupe-wheel" class="section level3">
-<h3>Ajouter l’utilisateur au groupe <code>wheel</code></h3>
-<pre><code>nano ~/visudo</code></pre>
-<p>Décommenter</p>
+<h3>Ajouter l’utilisateur au groupe wheel</h3>
+<pre><code>EDITOR=nano visudo</code></pre>
+<p>Décommenter la ligne suivante :</p>
 <pre><code>%wheel ALL=(ALL) ALL</code></pre>
 </div>
 <div id="installer-des-progiciels-pour-grub" class="section level3">
@@ -336,7 +338,7 @@ enter</code></pre>
 <pre><code>mount /dev/&lt;disque partition 1&gt; /boot/EFI</code></pre>
 </div>
 <div id="installer-grub" class="section level3">
-<h3>Installer <code>GRUB</code></h3>
+<h3>Installer GRUB</h3>
 <pre><code>grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck</code></pre>
 </div>
 <div id="créer-le-chemin-locale-pour-grub" class="section level3">
@@ -357,8 +359,8 @@ enter</code></pre>
 chmod 600 /swapfile
 mkswap /swapfile</code></pre>
 </div>
-<div id="sauvegarder-le-fichier-etcfstab" class="section level3">
-<h3>Sauvegarder le fichier /etc/fstab</h3>
+<div id="faire-une-copie-de-sauvegarde-du-fichier-etcfstab" class="section level3">
+<h3>Faire une copie de sauvegarde du fichier /etc/fstab</h3>
 <pre><code>cp /etc/fstab /etc/fstab.bak</code></pre>
 </div>
 <div id="ajouter-le-fichier-swap-au-fichier-etcfstab" class="section level3">
@@ -378,7 +380,7 @@ mkswap /swapfile</code></pre>
 <pre><code>pacman -S amd-ucode</code></pre>
 </div>
 <div id="installer-xorg" class="section level3">
-<h3>Installer <code>Xorg</code></h3>
+<h3>Installer Xorg</h3>
 <pre><code>pacman -S xorg-server</code></pre>
 </div>
 <div id="installer-le-support-3d-pour-intel-our-les-graphiques-amd" class="section level3">

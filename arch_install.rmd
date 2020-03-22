@@ -2,7 +2,7 @@
 title: "Installation de Arch Linux"
 subtitle: Installation Standard 
 date: 21-03-2020
-author: Jacob Taylor
+author: par Jacob Taylor
 output:
   prettydoc::html_pretty:
     toc: true
@@ -27,7 +27,7 @@ text-align: justify}
 
 [Cliquer ici](https://www.archlinux.org/download/) pour télécharger la dernière version
 
-### Connection internet
+### Vérifier la connection internet
 
 ```
 ip addr show
@@ -102,7 +102,7 @@ enter
 +30G
 ```
 
-### Créer une partition `home`
+### Créer une partition home
 
 ```
 n
@@ -126,7 +126,7 @@ w
 ### Formatter la partition EFI
 
 ```
-mkfs.fat -F32 /dev/<disque partition 1> (susbstituer <disque partition 1> par le nom de l'appareil)
+mkfs.fat -F32 /dev/<disque partition 1>
 ```
 
 ### Formatter la partition rootfs
@@ -147,13 +147,13 @@ mkfs.ext4 /dev/<disque partition 3> (susbstituer <disque partition 3> par le nom
 mount /dev/<disque partition 2> /mnt
 ```
 
-### Créer l'endroit pour monter la partition home
+### Créer l'emplacement pour monter la partition home
 
 ```
 mkdir /mnt/home
 ```
 
-### Monter le volume home 
+### Monter le volume home
 
 ```
 mount /dev/<disque partition 3> /mnt/home
@@ -183,13 +183,13 @@ cat /mnt/etc/fstab
 pacstrap -i /mnt base
 ```
 
-### Changer de `root`
+### Changer de root
 
 ```
 arch-chroot /mnt
 ```
 
-### Installer un `kernel et header`
+### Installer un kernel et header
 
 ```
 pacman -S linux linux-headers
@@ -224,13 +224,13 @@ systemctl enable sshd
 pacman -S networkmanager wpa_supplicant wireless_tools netctl
 ```
 
-### Installation de `dialog`
+### Installation de dialog
 
 ```
 pacman -S dialog
 ```
 
-### Activer `networkmanager`
+### Activer networkmanager
 
 ```
 systemctl enable NetworkManager
@@ -248,7 +248,7 @@ mkinitcpio -p linux
 mkinitcpio -p linux-lts
 ```
 
-### Retirer le commentaire de la ligne qui correspond à votre locale du fichier /etc/locale.gen
+### Retirer le commentaire de la ligne qui correspond au locale de choix du fichier /etc/locale.gen
 
 ```
 nano /etc/locale.gen (décommenter le locale voulu)
@@ -260,7 +260,7 @@ nano /etc/locale.gen (décommenter le locale voulu)
 locale-gen
 ```
 
-### Définir le mot de passe `root`
+### Définir le mot de passe root
 
 ```
 passwd
@@ -278,19 +278,25 @@ useradd -m -g users -G wheel <nom d'utilisateur>
 passwd <nom d'utilisateur>
 ```
 
-### Installer `sudo` (peut être déjà installé)
+### Installer sudo (peut être déjà installé)
+
+```
+which sudo
+```
+
+S'il n'est pas installé :
 
 ```
 pacman -S sudo
 ```
 
-### Ajouter l'utilisateur au groupe `wheel`
+### Ajouter l'utilisateur au groupe wheel
 
 ```
-nano ~/visudo
+EDITOR=nano visudo
 ```
 
-Décommenter
+Décommenter la ligne suivante :
 
 ```
 %wheel ALL=(ALL) ALL
@@ -314,7 +320,7 @@ mkdir -p /boot/EFI
 mount /dev/<disque partition 1> /boot/EFI
 ```
 
-### Installer `GRUB`
+### Installer GRUB
 
 ```
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
@@ -346,7 +352,7 @@ chmod 600 /swapfile
 mkswap /swapfile
 ```
 
-### Sauvegarder le fichier /etc/fstab
+### Faire une copie de sauvegarde du fichier /etc/fstab
 
 ```
 cp /etc/fstab /etc/fstab.bak
@@ -376,7 +382,7 @@ pacman -S intel-ucode
 pacman -S amd-ucode
 ```
 
-### Installer `Xorg`
+### Installer Xorg
 
 ```
 pacman -S xorg-server
