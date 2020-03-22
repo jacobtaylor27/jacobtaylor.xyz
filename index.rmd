@@ -18,11 +18,13 @@ text-align: justify}
 
 # Bienvenue!
 
-Mon nom est Jacob Taylor et voici mon site personnel. Sur celui-ci, on y retrouve mes projets, différents articles et d'autre choses dans mon champ d'intérêt.
+Bienvenue sur mon site web personnel. Sur celui-ci, vous pouvez y trouver différents articles que j'écris, mes projets et mes réseaux sociaux.
 
-# Social
+# Articles
 
-Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit.
++ [Installation de base de Arch Linux](arch_install.html) -- (21-03-2020)
++ [Installation de Arch Linux sur LVM](arch_install_lvm.html) -- (22-03-2020) 
++ [Installation de Arch encrypté sur LVM](arch_install_lvm_encrypt.html) -- (23-03-2020)
 
 # Projets
 
