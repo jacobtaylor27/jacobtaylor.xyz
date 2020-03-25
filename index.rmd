@@ -8,30 +8,64 @@ output:
     math: katex
 ---
 <link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-#  Bienvenue!
+<nav>
+  <ul>
+    <li> <a href="https://twitter.com/57JacobTaylor"><i class="fa fa-twitter" ></i> 57jacobtaylor |</a> </li>
+    <li><a href="https://www.instagram.com/jacobtaylorvsm/"><i class="fa fa-instagram" ></i> jacobtaylorvsm |</a> </li>
+    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw"><i class="fa fa-spotify"></i> Jacob Taylor |</a> </li>
+    <li><a href="https://github.com/jacobtaylor27"><i class="fa fa-github"></i> jacobtaylor27 |</a> </li>
+    <li><a href="https://www.snapchat.com/add/jakkyboy27"><i class="fa fa-snapchat"></i> jakkyboy27</a> </li>
+  </ul>
+</nav>
 
-***
-
-Bienvenue sur mon site web personnel. Sur celui-ci, vous pouvez y trouver différents articles que j'écris, mes projets et mes réseaux sociaux.
-
-# Articles
-
-***
-
-+ [Installation de base de Arch Linux](arch_install.html) -- (21-03-2020)
-+ [Installation de Arch Linux sur LVM](arch_install_lvm.html) -- (22-03-2020) 
-+ [Installation de Arch encrypté sur LVM](arch_install_lvm_encrypt.html) -- (23-03-2020)
-
-# Projets
+#  Bienvenue
 
 ***
 
-Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit. Ut ullamco in aute nulla in minim consequat occaecat proident do sunt. Dolor magna deserunt elit dolor proident duis veniam adipisicing aute do ex. Voluptate nisi qui incididunt magna. Ad voluptate commodo elit aliquip ad. Do id ipsum excepteur minim laborum laborum. Nisi cillum ullamco id ut commodo veniam deserunt cupidatat ut sit mollit.
+Bienvenue sur mon site web personnel. Sur celui-ci, vous pouvez y trouver différents ``articles`` que je rédige, mes ``projets`` qui me gardent occupé, mes ``fichiers`` importants et mes ``réseaux sociaux``. Des liste du ``matériels et logiciels`` que j'utilise sont également disponible. 
 
-# Me rejoindre
+# Articles <i class="fa fa-newspaper-o"></i>
 
 ***
 
-Pour me rejoindre, il est possible de m'écrire par courriel : jacob@jacobtaylor.xyz
++ [Installation de ``base`` de Arch Linux](arch_install.html) -- (21-03-2020)
++ [Installation de Arch Linux sur ``LVM``](arch_install_lvm.html) -- (22-03-2020) 
++ [Installation de Arch ``encrypté sur LVM``](arch_install_lvm_encrypt.html) -- (23-03-2020)
 
+<i class="fa fa-angle-right"></i> [Plus d'articles](articles.html)
+
+# Projets <i class="fa fa-code"></i>
+
+***
+
+La plupart de mes projets sont disponibles sur mon [Github](https://github.com/jacobtaylor27).
+
++ [Battleship 3D]() -- en cours
++ [Snake]() -- 2020
++ [Pong]() -- 2020
+
+<i class="fa fa-angle-right"></i> [Plus de projets](projets.html)
+
+# Fichiers <i class="fa fa-file-text-o"></i>
+
+***
+
++ [Ensemble des *dotfiles*](https://github.com/jacobtaylor27)
++ [Configuration de ``i3wm``](i3wm.html)
++ [Configuration de ``i3blocks``](i3blocks.html)
+
+<i class="fa fa-angle-right"></i> [Plus de fichiers](fichiers.html)
+
+
+# Me rejoindre <i class="fa fa-envelope-o"></i>
+
+***
+
+Pour me rejoindre, il est possible de m'écrire par ``Courriel`` à l'adresse suivante : jacob@jacobtaylor.xyz ou sur [``Twitter``](https://twitter.com/57JacobTaylor)
+
+<center style="background-color:#f2f2f2; border-radius:6px;">
+<i class="fa fa-clock-o"></i> Dernière mise à jour le 25 mars 2020 à 2h30AM | 
+<i class="fa fa-user-o"></i> Jacob Taylor
+</center>

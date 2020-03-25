@@ -1,2 +1,28 @@
-body{
-text-align: justify}
+body {
+    text-align: justify;
+}
+
+nav ul {
+    text-align:center;
+    margin:0;
+    padding:0;
+    background-color:#f2f2f2;
+    display:inline-block;
+    width:100%;
+    border-radius:6px;
+  }
+
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    cursor:pointer;
+    text-align:center;
+  }
+
+a:hover {
+    text-decoration:none;
+  }
+
+a .fa{
+    color:#c3073f;
+  }
