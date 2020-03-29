@@ -12,11 +12,11 @@ output:
 
 <nav>
   <ul>
-    <li> <a href="https://twitter.com/57JacobTaylor"><i class="fa fa-twitter" ></i> 57jacobtaylor |</a> </li>
-    <li><a href="https://www.instagram.com/jacobtaylorvsm/"><i class="fa fa-instagram" ></i> jacobtaylorvsm |</a> </li>
-    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw"><i class="fa fa-spotify"></i> Jacob Taylor |</a> </li>
-    <li><a href="https://github.com/jacobtaylor27"><i class="fa fa-github"></i> jacobtaylor27 |</a> </li>
-    <li><a href="https://www.snapchat.com/add/jakkyboy27"><i class="fa fa-snapchat"></i> jakkyboy27</a> </li>
+    <li> <a href="https://twitter.com/57JacobTaylor"><i class="fa fa-twitter" ></i></a> </li>
+    <li><a href="https://www.instagram.com/jacobtaylorvsm/"><i class="fa fa-instagram" ></i></a> </li>
+    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw"><i class="fa fa-spotify"></i></a> </li>
+    <li><a href="https://github.com/jacobtaylor27"><i class="fa fa-github"></i> </a> </li>
+    <li><a href="https://www.snapchat.com/add/jakkyboy27"><i class="fa fa-snapchat"></i></a> </li>
   </ul>
 </nav>
 
