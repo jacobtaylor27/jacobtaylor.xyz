@@ -7,24 +7,9 @@ output:
     highlight: github
     math: katex
 ---
+
 <link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<nav>
-  <ul>
-    <li> <a href="https://twitter.com/57JacobTaylor"><i class="fa fa-twitter" ></i></a> </li>
-    <li><a href="https://www.instagram.com/jacobtaylorvsm/"><i class="fa fa-instagram" ></i></a> </li>
-    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw"><i class="fa fa-spotify"></i></a> </li>
-    <li><a href="https://github.com/jacobtaylor27"><i class="fa fa-github"></i> </a> </li>
-    <li><a href="https://www.snapchat.com/add/jakkyboy27"><i class="fa fa-snapchat"></i></a> </li>
-  </ul>
-</nav>
-
-#  Bienvenue
-
-***
-
-Bienvenue sur mon site web personnel. Sur celui-ci, vous pouvez y trouver différents ``articles`` que je rédige, mes ``projets`` qui me gardent occupé, mes ``fichiers`` importants et mes ``réseaux sociaux``. Des liste du ``matériels et logiciels`` que j'utilise sont également disponible. 
 
 # Articles <i class="fa fa-newspaper-o"></i>
 
@@ -34,7 +19,7 @@ Bienvenue sur mon site web personnel. Sur celui-ci, vous pouvez y trouver diffé
 + [Installation de Arch Linux sur ``LVM``](arch_install_lvm.html) -- (22-03-2020) 
 + [Installation de Arch ``encrypté sur LVM``](arch_install_lvm_encrypt.html) -- (23-03-2020)
 
-<i class="fa fa-angle-right"></i> [Plus d'articles](articles.html)
+[Plus d'articles](articles.html) <i class="fa fa-angle-right"></i>
 
 # Projets <i class="fa fa-code"></i>
 
@@ -46,7 +31,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 + [Snake]() -- 2020
 + [Pong]() -- 2020
 
-<i class="fa fa-angle-right"></i> [Plus de projets](projets.html)
+[Plus de projets](projets.html) <i class="fa fa-angle-right"></i>
 
 # Fichiers <i class="fa fa-file-text-o"></i>
 
@@ -56,16 +41,38 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 + [Configuration de ``i3wm``](i3wm.html)
 + [Configuration de ``i3blocks``](i3blocks.html)
 
-<i class="fa fa-angle-right"></i> [Plus de fichiers](fichiers.html)
+[Plus de fichiers](fichiers.html) <i class="fa fa-angle-right"></i>
 
+# Outils <i class="fa fa-laptop"></i>
+
+***
+
++ [Office]()
++ []()
++ []()
+
+[Plus de fichiers](fichiers.html) <i class="fa fa-angle-right"></i>
 
 # Me rejoindre <i class="fa fa-envelope-o"></i>
 
 ***
 
-Pour me rejoindre, il est possible de m'écrire par ``Courriel`` à l'adresse suivante : jacob@jacobtaylor.xyz ou sur [``Twitter``](https://twitter.com/57JacobTaylor)
+Pour me rejoindre, il est possible de m'écrire par ``Courriel`` à l'adresse suivante : jacob@jacobtaylor.xyz ou sur n'importe quel de mes réseaux sociaux.
 
-<center style="background-color:#f2f2f2; border-radius:6px;">
-<i class="fa fa-clock-o"></i> Dernière mise à jour le 25 mars 2020 à 2h30AM | 
-<i class="fa fa-user-o"></i> Jacob Taylor
+<nav>
+  <ul>
+    <li> <a href="https://twitter.com/57JacobTaylor"><i class="fa fa-twitter" ></i></a> </li>
+    <li><a href="https://www.instagram.com/jacobtaylorvsm/"><i class="fa fa-instagram" ></i></a> </li>
+    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw"><i class="fa fa-spotify"></i></a> </li>
+    <li><a href="https://github.com/jacobtaylor27"><i class="fa fa-github"></i> </a> </li>
+    <li><a href="https://www.snapchat.com/add/jakkyboy27"><i class="fa fa-snapchat"></i></a> </li>
+    <li><a href="https://www.reddit.com/user/jtaylor27/"><i class="fa fa-reddit"></i></a> </li>
+    <li><a href="https://www.linkedin.com/in/jacob-t-1a570aba/"><i class="fa fa-linkedin"></i></a> </li>
+  </ul>
+</nav>
+
+<center style="font-size:16px;">
+<i class="fa fa-clock-o"></i> Mis à jour le `r format(Sys.time(), '%d mars %Y')`
+
+<div style="margin-top:0px;"><i class="fa fa-user-o"></i> Jacob Taylor </div>
 </center>
