@@ -7,9 +7,11 @@ output:
     highlight: github
     math: katex
 ---
-
+<head>
+    <base target="_self">
 <link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
 # Articles <i class="fa fa-newspaper-o"></i>
 
@@ -47,11 +49,11 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 ***
 
-+ [Office]()
-+ []()
-+ []()
++ [Vim]()
++ [Visual Studio]()
++ [Dell XPS 13]()
 
-[Plus de fichiers](fichiers.html) <i class="fa fa-angle-right"></i>
+[Plus d'outils](outils.html) <i class="fa fa-angle-right"></i>
 
 # Me rejoindre <i class="fa fa-envelope-o"></i>
 
@@ -61,13 +63,13 @@ Pour me rejoindre, il est possible de m'écrire par ``Courriel`` à l'adresse su
 
 <nav>
   <ul>
-    <li> <a href="https://twitter.com/57JacobTaylor"><i class="fa fa-twitter" ></i></a> </li>
-    <li><a href="https://www.instagram.com/jacobtaylorvsm/"><i class="fa fa-instagram" ></i></a> </li>
-    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw"><i class="fa fa-spotify"></i></a> </li>
-    <li><a href="https://github.com/jacobtaylor27"><i class="fa fa-github"></i> </a> </li>
-    <li><a href="https://www.snapchat.com/add/jakkyboy27"><i class="fa fa-snapchat"></i></a> </li>
-    <li><a href="https://www.reddit.com/user/jtaylor27/"><i class="fa fa-reddit"></i></a> </li>
-    <li><a href="https://www.linkedin.com/in/jacob-t-1a570aba/"><i class="fa fa-linkedin"></i></a> </li>
+    <li> <a href="https://twitter.com/57JacobTaylor" target="_blank"><i class="fa fa-twitter" ></i></a> </li>
+    <li><a href="https://www.instagram.com/jacobtaylorvsm/" target="_blank"><i class="fa fa-instagram" ></i></a> </li>
+    <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw" target="_blank"><i class="fa fa-spotify"></i></a> </li>
+    <li><a href="https://github.com/jacobtaylor27" target="_blank"><i class="fa fa-github"></i> </a> </li>
+    <li><a href="https://www.snapchat.com/add/jakkyboy27" target="_blank"><i class="fa fa-snapchat"></i></a> </li>
+    <li><a href="https://www.reddit.com/user/jtaylor27/" target="_blank"><i class="fa fa-reddit"></i></a> </li>
+    <li><a href="https://www.linkedin.com/in/jacob-t-1a570aba/" target="_blank"><i class="fa fa-linkedin"></i></a> </li>
   </ul>
 </nav>
 
