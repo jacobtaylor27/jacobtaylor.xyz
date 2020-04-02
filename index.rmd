@@ -7,10 +7,6 @@ output:
     highlight: github
     math: katex
 ---
-<script src="count.js"></script>
-<link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 # Articles <i class="fa fa-newspaper-o"></i>
 
 ***
@@ -57,7 +53,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 ***
 
-Pour me rejoindre, il est possible de m'écrire par **Courriel** à l'adresse suivante : jacob@jacobtaylor.xyz ou sur n'importe quel de mes réseaux sociaux.
+Pour me rejoindre, il est possible de m'écrire par courriel à l'adresse suivante : jacob@jacobtaylor.xyz ou sur n'importe quel de mes réseaux sociaux.
 
 <nav>
   <ul>
@@ -79,5 +75,9 @@ Pour me rejoindre, il est possible de m'écrire par **Courriel** à l'adresse su
   <p id="count">0</p>
   </div>
 </center>
+
+<script src="count.js"></script>
+<link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
