@@ -11,11 +11,11 @@ output:
 
 ***
 
-+ [Installation de ``base`` de Arch Linux](pages/arch_install.html) -- (21-03-2020)
-+ [Installation de Arch Linux sur ``LVM``](pages/arch_install_lvm.html) -- (22-03-2020) 
-+ [Installation de Arch ``encrypté sur LVM``](pages/arch_install_lvm_encrypt.html) -- (23-03-2020)
++ [Installation de ``base`` de Arch Linux](contenu/arch_install.html) -- (21-03-2020)
++ [Installation de Arch Linux sur ``LVM``](contenu/arch_install_lvm.html) -- (22-03-2020) 
++ [Installation de Arch ``encrypté sur LVM``](contenu/arch_install_lvm_encrypt.html) -- (23-03-2020)
 
-[Plus d'articles](pages/articles.html) <i class="fa fa-angle-right"></i>
+[Plus d'articles](contenu/articles.html) <i class="fa fa-angle-right"></i>
 
 # Projets <i class="fa fa-code"></i>
 
@@ -27,17 +27,17 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 + [Snake]() -- 2020
 + [Pong]() -- 2020
 
-[Plus de projets](pages/projets.html) <i class="fa fa-angle-right"></i>
+[Plus de projets](contenu/projets.html) <i class="fa fa-angle-right"></i>
 
 # Fichiers <i class="fa fa-file-text-o"></i>
 
 ***
 
 + [Ensemble des *dotfiles*](https://github.com/jacobtaylor27)
-+ [Configuration de ``i3wm``](pages/i3wm.html)
-+ [Configuration de ``i3blocks``](pages/i3blocks.html)
++ [Configuration de ``i3wm``](contenu/i3wm.html)
++ [Configuration de ``i3blocks``](contenu/i3blocks.html)
 
-[Plus de fichiers](pages/fichiers.html) <i class="fa fa-angle-right"></i>
+[Plus de fichiers](contenu/fichiers.html) <i class="fa fa-angle-right"></i>
 
 # Outils <i class="fa fa-laptop"></i>
 
@@ -47,7 +47,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 + [Visual Studio]()
 + [Dell XPS 13]()
 
-[Plus d'outils](pages/outils.html) <i class="fa fa-angle-right"></i>
+[Plus d'outils](contenu/outils.html) <i class="fa fa-angle-right"></i>
 
 # Me rejoindre <i class="fa fa-envelope-o"></i>
 

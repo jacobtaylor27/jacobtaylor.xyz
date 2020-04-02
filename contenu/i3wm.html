@@ -13,7 +13,7 @@
 
 
 
-<title>Outils et logiciels</title>
+<title>i3 window manager</title>
 
 
 
@@ -31,7 +31,7 @@ code span.ch { color: #4070a0; }
 code span.st { color: #183691; } 
 code span.co { color: #969896; font-style: italic; } 
 code span.ot { color: #007020; } 
-</style>
+body {text-align: justify;}nav ul {padding:0;display:inline-block;width:100%;border-radius:6px;text-align: center;}nav ul li{list-style:none;display:inline-block;cursor:pointer;margin-right: -.25em;padding: 0.15em 1.25em;position: relative;top: 1.25em;}nav ul::before{content:'';display: block;margin-top: -1.25em;}nav ul::after{content:'';display: inline-block;width: 50%;}a:hover nav {text-decoration:none;}a .fa-snapchat {color: #e9e504;font-size: 36px;padding-left: 3%;padding-right: 3%;}a .fa-spotify {color: #1DB954;font-size: 36px;}a .fa-instagram {color: #833AB4;font-size: 36px;}a .fa-github {color: #4078c0;font-size: 36px;}a .fa-twitter {color: #1DA1F2;font-size: 36px;}a .fa-reddit {color: #FF4500;font-size: 36px;}a .fa-linkedin {color: #2867B2;font-size: 36px;}</style>
 
 
 
@@ -60,13 +60,214 @@ code span.ot { color: #007020; }
 
 
 <section class="page-header">
-<h1 class="title toc-ignore project-name">Outils et logiciels</h1>
+<h1 class="title toc-ignore project-name">i3 window manager</h1>
 </section>
 
 
 
 <section class="main-content">
+<div id="configuration" class="section level1">
+<h1>Configuration</h1>
+<hr />
+<pre><code># ---- Basic definitions ----#
+bindsym $mod+Return exec gnome-terminal
+set $mod Mod4
+set $ws1 &quot;1: &quot;
+set $ws2 &quot;2: &quot;
+set $ws3 &quot;3: &quot;
+set $ws4 &quot;4: &quot;
+set $ws5 &quot;5: &quot;
+set $ws6 &quot;6: &quot;
+set $ws7 &quot;7: &quot;
+set $ws8 &quot;8: &quot;
+set $ws9 &quot;9: &quot;
+set $ws10 &quot;10: &quot;
+for_window [class=&quot;^.*&quot;] border pixel 1
+gaps inner 15
+gaps outer 15
+exec --no-startup-id feh --bg-fill ~/Pictures/bg4.jpg
+bindsym $mod+Shift+d gaps inner current set 0; gaps outer current set 0
+bindsym $mod+Shift+t gaps inner current set 15; gaps outer current set 15
+bindsym $mod+Shift+q [con_id=&quot;__focused__&quot; instance=&quot;^(?!dropdown_).*$&quot;] kill
+hide_edge_borders both
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu=&quot;dmenu -fn &#39;DejaVu Sans Mono-16&#39;&quot;
 
+
+#---- Font settings ----#
+font pango:Ubuntu 14
+#font pango:DejaVu Sans Mono 8
+
+#---- Set colors ----#
+set $bg-color            #2f343f
+set $inactive-bg-color   #2f343f
+set $text-color          #f3f4f5
+set $inactive-text-color #676E7D
+set $urgent-bg-color     #E53935
+
+# window colors     #border         background      text            indicator
+client.focused      $bg-color           $bg-color       $text-color             $bg-color
+client.unfocused        $inactive-bg-color  $inactive-bg-color  $inactive-text-color    $bg-color
+client.focused_inactive $inactive-bg-color  $inactive-bg-color  $inactive-text-color    $bg-color
+client.urgent           $urgent-bg-color        $urgent-bg-color    $text-color             $bg-color
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start compton when starting i3
+exec compton -f
+
+#start plex media player
+bindsym $mod+p exec plex
+
+# start web browser
+bindsym $mod+w exec --no-startup-id brave-browser
+
+# start file explorer
+bindsym $mod+e exec --no-startup-id nautilus
+
+# start dmenu
+#bindsym $mod+d exec dmenu_run -fn &#39;Ubuntu 18&#39;
+
+# default workspaces
+for_window [class=&quot;Spotify&quot;] move to workspace $ws10
+for_window [class=&quot;Org.gnome.Nautilus&quot;] move to workspace $ws3
+for_window [class=&quot;Brave-browser&quot;] move to workspace $ws1
+for_window [class=&quot;plexmediaplayer&quot;] move to workspace $ws6
+
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+t layout tabbed
+#bindsym $mod+shift+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+#---- Workspace actions ----#
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+bindsym $mod+Tab workspace next
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec &quot;i3-nagbar -t warning -m &#39;You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.&#39; -B &#39;Yes, exit i3&#39; &#39;i3-msg exit&#39;&quot;
+
+# resize window
+mode &quot;resize&quot; {
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode &quot;default&quot;
+        bindsym Escape mode &quot;default&quot;
+        bindsym $mod+r mode &quot;default&quot;
+}
+
+bindsym $mod+r mode &quot;resize&quot;
+
+bar {
+    mode dock
+    position bottom
+    font pango:Ubuntu 16
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    colors {
+        background $bg-color
+            separator #757575
+        #                  border             background         text
+        focused_workspace  $bg-color          $bg-color          $text-color
+        inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+        urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+    }
+}
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+
+# Touchpad controls
+bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous</code></pre>
+</div>
 </section>
 
 

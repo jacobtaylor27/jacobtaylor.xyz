@@ -1,9 +1,0 @@
----
-title: "i3 window manager - fichiers de configuration"
-output:
-  prettydoc::html_pretty:
-    theme: caymen
-    css: style.css
-    highlight: github
-    math: katex
----
