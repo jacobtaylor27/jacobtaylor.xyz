@@ -1,0 +1,413 @@
+---
+title: "Installation de Arch Linux"
+subtitle: Installation sur LVM
+date: 22-03-2020
+author: Jacob Taylor
+output:
+  prettydoc::html_pretty:
+    toc: true
+    toc_depth: 4
+    css: style.css
+    theme: caymen
+    highlight: github
+    math: katex
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+<link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
+
+## Étapes d'installation
+
+***
+
+### Téléchargement de l'ISO 
+
+[Cliquer ici](https://www.archlinux.org/download/) pour télécharger la dernière version
+
+### Connection internet
+
+```
+ip addr show
+```
+
+### Directive pour le WiFi
+
+```
+wifi-menu
+```
+
+### S'il y a une connection internet, mais pas d'IP
+
+```
+dhcpcd
+```
+
+### Ajuster la liste des mirroirs
+
+```
+nano /etc/pacman.d/mirrorlist
+```
+
+### Mettre à jour l'index du répertoire
+
+```
+pacman -Syyy
+```
+
+### Regarder les partitions du disque
+
+```
+fdisk -l 
+```
+
+ou 
+
+```
+lsblk
+```
+
+### Commencer le partitionnement (fdisk)
+
+```
+fdisk /dev/<disque> (susbstituer <disque> par le nom de l'appareil)
+```
+
+### Montrer les partitions actuelles
+
+```
+p
+```
+
+### Créer une partition EFI
+
+```
+g
+n
+enter
+enter
++500M
+t
+1 (pour EFI)
+```
+
+### Créer une partition rootfs
+
+```
+n
+enter
+enter
++30G
+```
+
+### Créer une partition `home`
+
+```
+n
+enter
+enter
+enter
+```
+
+### Remontrer les partitions actuelles
+
+```
+p
+```
+
+### Finaliser les changements de partitions
+
+```
+w
+```
+
+### Formatter la partition EFI
+
+```
+mkfs.fat -F32 /dev/<disque partition 1> (susbstituer <disque partition 1> par le nom de l'appareil)
+```
+
+### Formatter la partition rootfs
+
+```
+mkfs.ext4 /dev/<disque partition 2> (susbstituer <disque partition 2> par le nom de l'appareil)
+```
+
+### Formatter la partition home
+
+```
+mkfs.ext4 /dev/<disque partition 3> (susbstituer <disque partition 3> par le nom de l'appareil)
+```
+
+### Monter la partition root
+
+```
+mount /dev/<disque partition 2> /mnt
+```
+
+### Créer l'endroit pour monter la partition home
+
+```
+mkdir /mnt/home
+```
+
+### Monter le volume home 
+
+```
+mount /dev/<disque partition 3> /mnt/home
+```
+
+### Créer le chemin /etc
+
+```
+mkdir /mnt/etc
+```
+
+### Créer le fichier /etc/fstab
+
+```
+genfstab -U -p /mnt >> mnt/etc/fstab
+```
+
+### Vérifier le fichier /etc/fstab
+
+```
+cat /mnt/etc/fstab
+```
+
+### Installer les progiciels de base
+
+```
+pacstrap -i /mnt base
+```
+
+### Changer de `root`
+
+```
+arch-chroot /mnt
+```
+
+### Installer un `kernel et header`
+
+```
+pacman -S linux linux-headers
+```
+Pour LTS :
+
+```
+pacman -S linux-lts linux-lts-headers
+```
+
+Pour les deux :
+
+```
+pacman -S linux linux-lts linux-headers linux-lts-headers
+```
+
+### Installation d'applications de bases
+
+```
+pacman -S nano nvim base-devel openssh
+```
+
+### Activer OpenSSH s'il est installé
+
+```
+systemctl enable sshd
+```
+
+### Installation de progiciels de réseautique
+
+```
+pacman -S networkmanager wpa_supplicant wireless_tools netctl
+```
+
+### Installation de `dialog`
+
+```
+pacman -S dialog
+```
+
+### Activer `networkmanager`
+
+```
+systemctl enable NetworkManager
+```
+
+### Créer le ramdisk initial pour le kernel principal
+
+```
+mkinitcpio -p linux
+```
+
+### Créer le ramdisk initial pour le kernel LTS (s'il est installé)
+
+```
+mkinitcpio -p linux-lts
+```
+
+### Retirer le commentaire de la ligne qui correspond à votre locale du fichier /etc/locale.gen
+
+```
+nano /etc/locale.gen (décommenter le locale voulu)
+```
+
+### Générer les locales
+
+```
+locale-gen
+```
+
+### Définir le mot de passe `root`
+
+```
+passwd
+```
+
+### Créer un utilisateur personnel
+
+```
+useradd -m -g users -G wheel <nom d'utilisateur>
+```
+
+### Définir un mot de passe pour l'utilisateur
+
+```
+passwd <nom d'utilisateur>
+```
+
+### Installer `sudo` (peut être déjà installé)
+
+```
+pacman -S sudo
+```
+
+### Ajouter l'utilisateur au groupe `wheel`
+
+```
+nano ~/visudo
+```
+
+Décommenter
+
+```
+%wheel ALL=(ALL) ALL
+```
+
+### Installer des progiciels pour GRUB
+
+```
+pacman -S grub efibootmgr dosfstools os-prober mtools
+```
+
+### Créer le chemin pour le démarrage EFI
+
+```
+mkdir -p /boot/EFI
+```
+
+### Monter la partition EFI
+
+```
+mount /dev/<disque partition 1> /boot/EFI
+```
+
+### Installer `GRUB`
+
+```
+grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+```
+
+### Créer le chemin locale pour GRUB
+
+```
+mkdir /boot/grub/locale
+```
+
+### Copier le fichier locale vers le chemin locale
+
+```
+cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+```
+
+### Générer le fichier de configuration de GRUB
+
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+### Créer un fichier swap
+
+```
+fallocate -l 2G /swapfile
+chmod 600 /swapfile
+mkswap /swapfile
+```
+
+### Sauvegarder le fichier /etc/fstab
+
+```
+cp /etc/fstab /etc/fstab.bak
+```
+
+### Ajouter le fichier swap au fichier /etc/fstab
+
+```
+echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+```
+
+### Vérifier si toutes les bonnes partitions sont présentes dans le fichier /etc/fstab
+
+```
+cat /etc/fstab
+```
+
+### Installer les fichier de microdes (Intel)
+
+```
+pacman -S intel-ucode
+```
+
+### Installer les fichier de microdes (AMD)
+
+```
+pacman -S amd-ucode
+```
+
+### Installer `Xorg`
+
+```
+pacman -S xorg-server
+```
+
+### Installer le support 3D pour intel our les graphiques AMD
+
+```
+pacman -S mesa
+```
+
+### Installer les progiciels d'invités de VirtualBox
+
+```
+pacman -S virtualbox-guest-utils xf86-video-vmware
+```
+
+### Sortir de l'environement chroot
+
+```
+exit
+```
+
+### Démonter tout
+
+```
+umount -a
+```
+
+### Redémarrer la machine
+
+```
+sudo reboot
+```

@@ -11,11 +11,13 @@ output:
 
 ***
 
-+ [Installation de ``base`` de Arch Linux](contenu/arch_install.html) -- (21-03-2020)
-+ [Installation de Arch Linux sur ``LVM``](contenu/arch_install_lvm.html) -- (22-03-2020) 
-+ [Installation de Arch ``encrypté sur LVM``](contenu/arch_install_lvm_encrypt.html) -- (23-03-2020)
+- [Installation de ``base`` de Arch Linux](articles/arch_install.html)
 
-[Plus d'articles](contenu/articles.html) <i class="fa fa-angle-right"></i>
+- [Installation de Arch Linux sur ``LVM``](articles/arch_install_lvm.html)
+
+- [Installation de Arch ``encrypté sur LVM``](articles/arch_install_lvm_encrypt.html)
+
+[Plus d'articles](articles/articles.html) <i class="fa fa-angle-right"></i>
 
 # Projets <i class="fa fa-code"></i>
 
@@ -23,31 +25,37 @@ output:
 
 La plupart de mes projets sont disponibles sur mon [Github](https://github.com/jacobtaylor27).
 
-+ [Battleship 3D]() -- en cours
-+ [Snake]() -- 2020
-+ [Pong]() -- 2020
++ [Battleship 3D](projets/battleship.html)
 
-[Plus de projets](contenu/projets.html) <i class="fa fa-angle-right"></i>
++ [Jeu ``Snake``](projets/snake.html)
+
++ [Jeu ``Pong``](projets/pong.html)
+
+[Plus de projets](projets/projets.html) <i class="fa fa-angle-right"></i>
 
 # Fichiers <i class="fa fa-file-text-o"></i>
 
 ***
 
-+ [Ensemble des *dotfiles*](https://github.com/jacobtaylor27)
-+ [Configuration de ``i3wm``](contenu/i3wm.html)
-+ [.bashrc](contenu/bashrc.html)
++ [Ensemble des ``dotfiles``](https://github.com/jacobtaylor27)
 
-[Plus de fichiers](contenu/fichiers.html) <i class="fa fa-angle-right"></i>
++ [Configuration de ``i3wm``](fichiers/i3wm.html)
+
++ [.bashrc](fichiers/bashrc.html)
+
+[Plus de fichiers](fichiers/fichiers.html) <i class="fa fa-angle-right"></i>
 
 # Outils <i class="fa fa-laptop"></i>
 
 ***
 
-+ [Vim]()
-+ [Visual Studio]()
-+ [Dell XPS 13]()
++ Brave Browser
 
-[Plus d'outils](contenu/outils.html) <i class="fa fa-angle-right"></i>
++ Visual Studio
+
++ Dell XPS 13
+
+[Plus d'outils](outils/outils.html) <i class="fa fa-angle-right"></i>
 
 # Me rejoindre <i class="fa fa-envelope-o"></i>
 
