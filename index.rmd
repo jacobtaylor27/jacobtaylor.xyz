@@ -7,6 +7,10 @@ output:
     highlight: github
     math: katex
 ---
+<script src="count.js"></script>
+<link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 # Articles <i class="fa fa-newspaper-o"></i>
 
 ***
@@ -35,7 +39,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 + [Ensemble des *dotfiles*](https://github.com/jacobtaylor27)
 + [Configuration de ``i3wm``](contenu/i3wm.html)
-+ [Configuration de ``i3blocks``](contenu/i3blocks.html)
++ [.bashrc](contenu/bashrc.html)
 
 [Plus de fichiers](contenu/fichiers.html) <i class="fa fa-angle-right"></i>
 
@@ -53,7 +57,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 ***
 
-Pour me rejoindre, il est possible de m'écrire par ``Courriel`` à l'adresse suivante : jacob@jacobtaylor.xyz ou sur n'importe quel de mes réseaux sociaux.
+Pour me rejoindre, il est possible de m'écrire par **Courriel** à l'adresse suivante : jacob@jacobtaylor.xyz ou sur n'importe quel de mes réseaux sociaux.
 
 <nav>
   <ul>
@@ -68,9 +72,12 @@ Pour me rejoindre, il est possible de m'écrire par ``Courriel`` à l'adresse su
 </nav>
 
 <center style="font-size:16px;">
-<i class="fa fa-clock-o"></i> Mis à jour le `r format(Sys.time(), '%d mars %Y')`
+  <i class="fa fa-clock-o"></i> Mis à jour le `r format(Sys.time(), '%d avril %Y')`
 
-<div style="margin-top:0px;"><i class="fa fa-user-o"></i> Jacob Taylor </div>
+  <div style="margin-top:0px;">
+  <i class="fa fa-user-o"></i> Jacob Taylor
+  <p id="count">0</p>
+  </div>
 </center>
-<link rel="icon" href="https://www.freefavicon.com/freefavicons/objects/jack-of-spades-152-192574.png">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
