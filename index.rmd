@@ -11,13 +11,13 @@ output:
 
 ***
 
-- [Installation de ``base`` de Arch Linux](articles/arch_install.html)
+- [Meilleurs ``films``](articles/films.html)
 
-- [Installation de Arch Linux sur ``LVM``](articles/arch_install_lvm.html)
+- [Meilleurs ``séries TV``](articles/tv.html)
 
-- [Installation de Arch ``encrypté sur LVM``](articles/arch_install_lvm_encrypt.html)
+- [Installation de ``Arch Linux``](articles/arch_install.html)
 
-[Plus d'articles](articles/articles.html) <i class="fa fa-angle-right"></i>
+[Tout les articles](articles/articles.html) <i class="fa fa-angle-right"></i>
 
 # Projets <i class="fa fa-code"></i>
 
@@ -25,13 +25,13 @@ output:
 
 La plupart de mes projets sont disponibles sur mon [Github](https://github.com/jacobtaylor27).
 
-+ [Battleship 3D](projets/battleship.html)
++ [Jeu ``Battleship 3D``](projets/battleship.html)
 
 + [Jeu ``Snake``](projets/snake.html)
 
 + [Jeu ``Pong``](projets/pong.html)
 
-[Plus de projets](projets/projets.html) <i class="fa fa-angle-right"></i>
+[Tout les projets](projets/projets.html) <i class="fa fa-angle-right"></i>
 
 # Fichiers <i class="fa fa-file-text-o"></i>
 
@@ -41,9 +41,9 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 + [Configuration de ``i3wm``](fichiers/i3wm.html)
 
-+ [.bashrc](fichiers/bashrc.html)
++ [``.bashrc``](fichiers/bashrc.html)
 
-[Plus de fichiers](fichiers/fichiers.html) <i class="fa fa-angle-right"></i>
+[Tout les fichiers](fichiers/fichiers.html) <i class="fa fa-angle-right"></i>
 
 # Outils <i class="fa fa-laptop"></i>
 
@@ -55,7 +55,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 + Dell XPS 13
 
-[Plus d'outils](outils/outils.html) <i class="fa fa-angle-right"></i>
+[Tout les outils](outils/outils.html) <i class="fa fa-angle-right"></i>
 
 # Me rejoindre <i class="fa fa-envelope-o"></i>
 
@@ -64,7 +64,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 Pour me rejoindre, il est possible de m'écrire par courriel à l'adresse suivante : jacob@jacobtaylor.xyz ou sur n'importe quel de mes réseaux sociaux.
 
 <nav>
-  <ul>
+  <ul style="margin-bottom:0px;">
     <li> <a href="https://twitter.com/57JacobTaylor" target="_blank"><i class="fa fa-twitter" ></i></a> </li>
     <li><a href="https://www.instagram.com/jacobtaylorvsm/" target="_blank"><i class="fa fa-instagram" ></i></a> </li>
     <li><a href="https://open.spotify.com/user/31bygrnvenhfovhunk4mvtqdrht4?si=oXeg9RVfQZ2laUha4qXxhw" target="_blank"><i class="fa fa-spotify"></i></a> </li>
@@ -75,7 +75,7 @@ Pour me rejoindre, il est possible de m'écrire par courriel à l'adresse suivan
   </ul>
 </nav>
 
-<center style="font-size:16px;">
+<center style="font-size:16px; margin-top:0px;">
   <i class="fa fa-clock-o"></i> Mis à jour le `r format(Sys.time(), '%d avril %Y')`
 
   <div style="margin-top:0px;">
