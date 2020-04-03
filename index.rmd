@@ -17,7 +17,7 @@ output:
 
 - [Installation de ``Arch Linux``](articles/arch_install.html)
 
-[Tout les articles](articles/articles.html) <i class="fa fa-angle-right"></i>
+[Tous les articles](articles/articles.html) <i class="fa fa-angle-right"></i>
 
 # Projets <i class="fa fa-code"></i>
 
@@ -31,7 +31,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 + [Jeu ``Pong``](projets/pong.html)
 
-[Tout les projets](projets/projets.html) <i class="fa fa-angle-right"></i>
+[Tous les projets](projets/projets.html) <i class="fa fa-angle-right"></i>
 
 # Fichiers <i class="fa fa-file-text-o"></i>
 
@@ -43,7 +43,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 + [``.bashrc``](fichiers/bashrc.html)
 
-[Tout les fichiers](fichiers/fichiers.html) <i class="fa fa-angle-right"></i>
+[Tous les fichiers](fichiers/fichiers.html) <i class="fa fa-angle-right"></i>
 
 # Outils <i class="fa fa-laptop"></i>
 
@@ -55,7 +55,7 @@ La plupart de mes projets sont disponibles sur mon [Github](https://github.com/j
 
 + Dell XPS 13
 
-[Tout les outils](outils/outils.html) <i class="fa fa-angle-right"></i>
+[Tous les outils](outils/outils.html) <i class="fa fa-angle-right"></i>
 
 # Me rejoindre <i class="fa fa-envelope-o"></i>
 
