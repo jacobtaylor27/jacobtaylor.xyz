@@ -7,12 +7,22 @@ output:
     highlight: github
     math: katex
 ---
-# Voici le répertoire de tous mes articles disponibles publiquement
+# Technologie
 
 ***
 
-1. [Installation d'Arch Linux](arch_install.html)
+-  [Installation d'Arch Linux](arch_install.html)
 
-2. [Meilleurs films](films.html)
+# Cinéma
 
-3. [Meilleurs séries télé](tv.html)
+***
+
+-  [Meilleurs films](films.html)
+
+-  [Meilleures séries télé](tv.html)
+
+# Recettes
+
+***
+
+-  [Gâteau *Queen of Sheba*](queenofsheba.html)
