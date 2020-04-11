@@ -7,3 +7,22 @@ output:
     highlight: github
     math: katex
 ---
+# Technologie
+
+***
+
+-  [Installation d'Arch Linux](arch_install.html)
+
+# Cinéma
+
+***
+
+-  [Meilleurs films](films.html)
+
+-  [Meilleures séries télé](tv.html)
+
+# Recettes
+
+***
+
+-  [Gâteau *Queen of Sheba*](queenofsheba.html)
