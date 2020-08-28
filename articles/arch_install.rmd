@@ -38,7 +38,7 @@ dhcpcd
 
 ### Ajuster la liste des mirroirs
 
-```
+```bash
 nano /etc/pacman.d/mirrorlist
 ```
 
@@ -158,13 +158,13 @@ mkdir /mnt/etc
 
 ### Créer le fichier /etc/fstab
 
-```
+```bash
 genfstab -U -p /mnt >> mnt/etc/fstab
 ```
 
 ### Vérifier le fichier /etc/fstab
 
-```
+```zsh
 cat /mnt/etc/fstab
 ```
 
