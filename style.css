@@ -1,74 +1,146 @@
-body {
-    text-align: justify;
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1A1A1D;
 }
 
-nav ul {
-    padding:0;
-    display:inline-block;
-    width:100%;
-    border-radius:6px;
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title{
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    color: #C3073F;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.worker {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.button{
+    border: none;
+    color: #4CAF50;
+    padding: 12px 40px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-nav ul li{
-    list-style:none;
-    display:inline-block;
-    cursor:pointer;
-    margin-right: -.25em;
-    padding: 0.15em 1.25em;
+.buttonA, .buttonI, .buttonA2, .buttonP, .buttonC {
+    color: white;
+    border: 2px solid #C3073F;
+}
+  
+.buttonA:hover, .buttonI:hover, .buttonA2:hover, .buttonP:hover, .buttonC:hover {
+    background-color: #C3073F;
+    color: white;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: 1.25em;
+    color: white;
 }
 
-nav ul::before{
-  content:'';
-  display: block;
-  margin-top: -1.25em;
+.contacter {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-nav ul::after{
-  content:'';
-  display: inline-block;
-  width: 50%;
-}
-
-a:hover nav {
-    text-decoration:none;
+.logo-social {
+    display: flex;
+    justify-content: center;
 }
 
 a .fa-snapchat {
-  color: #e9e504;
-  font-size: 36px;
-  padding-left: 3%;
-  padding-right: 3%;
-}
+    color: #e9e504;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 
 a .fa-spotify {
-  color: #1DB954;
-  font-size: 36px;
+    color: #1DB954;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-instagram {
+    color: #833AB4;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-github {
+    color: #4078c0;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-twitter {
+    color: #1DA1F2;
+    font-size: 36px;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-reddit {
+    color: #FF4500;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-linkedin {
+    color: #2867B2;
+    font-size: 36px;
+    margin-left: 0.5rem;
+  }
+
+.texte-contact{
+    align-items: center;
+    justify-content: center;
 }
 
-a .fa-instagram {
-  color: #833AB4;
-  font-size: 36px;
+p{
+    color: white;
 }
 
-a .fa-github {
-  color: #4078c0;
-  font-size: 36px;
+li{
+    list-style: none;
+    text-decoration: none;
 }
 
-a .fa-twitter {
-  color: #1DA1F2;
-  font-size: 36px;
+ul{
+    text-decoration: none;
+    list-style: none;
 }
 
-a .fa-reddit {
-  color: #FF4500;
-  font-size: 36px;
-}
-
-a .fa-linkedin {
-  color: #2867B2;
-  font-size: 36px;
+header, footer{
+    color: white;
 }
