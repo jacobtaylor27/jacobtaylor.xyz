@@ -1,30 +1,146 @@
 * {
-    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1A1A1D;
 }
 
-h1 {
-    color: chocolate;
+body{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-h2{
-    color: darkcyan;
+.title{
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    color: #C3073F;
 }
 
-h3 {
-    color: goldenrod;
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
 }
 
-strong {
-    color: firebrick;
-    font-weight: 1000;
+.worker {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
 }
 
-strong:hover {
+.button{
+    border: none;
+    color: #4CAF50;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonA, .buttonI, .buttonA2, .buttonP, .buttonC {
     color: white;
-    background-color: firebrick;
+    border: 2px solid #C3073F;
+}
+  
+.buttonA:hover, .buttonI:hover, .buttonA2:hover, .buttonP:hover, .buttonC:hover {
+    background-color: #C3073F;
+    color: white;
 }
 
-em:hover{
-    color: black;
-    background-color: yellow;
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.contacter {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo-social {
+    display: flex;
+    justify-content: center;
+}
+
+a .fa-snapchat {
+    color: #e9e504;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+a .fa-spotify {
+    color: #1DB954;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-instagram {
+    color: #833AB4;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-github {
+    color: #4078c0;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-twitter {
+    color: #1DA1F2;
+    font-size: 36px;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-reddit {
+    color: #FF4500;
+    font-size: 36px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  
+  a .fa-linkedin {
+    color: #2867B2;
+    font-size: 36px;
+    margin-left: 0.5rem;
+  }
+
+.texte-contact{
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    color: white;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+header, footer{
+    color: white;
 }
